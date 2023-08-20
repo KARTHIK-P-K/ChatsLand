@@ -38,6 +38,7 @@ export const AuthProvider = ({ children }) => {
 
       navigate("/");
     } catch (error) {
+      alert(error);
       console.error(error);
     }
   };
@@ -69,6 +70,7 @@ export const AuthProvider = ({ children }) => {
       setUser(accountDetails);
       navigate("/");
     } catch (error) {
+      alert(error);
       console.error(error);
     }
   };
