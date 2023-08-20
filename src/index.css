@@ -108,12 +108,10 @@ textarea {
 
 #header--wrapper {
   background-color: var(--mainBgColor);
-  padding: 1em;
+  padding: 1em 2em;
   display: flex;
   justify-content: space-between;
   border-radius: 10px 10px 0 0;
-  border: 1px solid var(--borderColor1);
-  border-bottom: none;
 }
 
 .header--link {
